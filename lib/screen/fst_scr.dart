@@ -33,7 +33,7 @@ class FirstScreen extends StatelessWidget {
     )
       floatingActionButton: FloatingActionButton(onPressed: (){},
       child:Icon(Icons.add,size: 40,color: Colors.white,) ,
-      backgroundColor: Colors.greenAccent,),
+      backgroundColor: Colors.greenAccent),
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
         BottomNavigationBarItem(icon: Icon(Icons.shopping_cart),label: "Order"),
